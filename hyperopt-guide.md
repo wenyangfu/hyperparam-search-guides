@@ -73,6 +73,17 @@ print(space_eval(space, best))
 If you wish to persist your search results or extend a search, read the following link:
 https://github.com/hyperopt/hyperopt/wiki/Parallelizing-Evaluations-During-Search-via-MongoDB
 
+
+## Installation:
+If you use Python 3, please install Hyperopt from my fork (which fixes a fatal bug discussed in issue #234):
+```bash
+pip install git+git://github.com/wenyangfu/hyperopt.git
+```
+Otherwise, install it from the default branch:
+```bash
+pip install git+git://github.com/hyperopt/hyperopt.git
+```
+
 ### Further examples
 I have attached source code examples in the github repo https://github.com/wenyangfu/hyperparam-search-guides
 
