@@ -41,11 +41,13 @@ space = [hp.uniform(’x’, 0, 1), hp.uniform(’y’, 0, 2)]
 
 
 Much of the content in this post is derived from the following papers:
-SciPy 2013 paper: [Hyperopt: A Python Library for Optimizing the
+
+NIPS 2011: [Algorithms for Hyper-Parameter Optimization](https://papers.nips.cc/paper/4443-algorithms-for-hyper-parameter-optimization.pdf)
+
+SciPy 2013: [Hyperopt: A Python Library for Optimizing the
 Hyperparameters of Machine Learning Algorithms](https://conference.scipy.org/proceedings/scipy2013/pdfs/bergstra_hyperopt.pdf)
 
 JMLR 2013: [Making a Science of Model Search: Hyperparameter Optimization
 in Hundreds of Dimensions for Vision Architectures](http://jmlr.org/proceedings/papers/v28/bergstra13.pdf)
 
-NIPS 2011: [Algorithms for Hyper-Parameter Optimization](https://papers.nips.cc/paper/4443-algorithms-for-hyper-parameter-optimization.pdf)
 
