@@ -14,7 +14,8 @@ Previous hyperparameter searches can be saved and persisted in a MongoDB instanc
 # Reproducibility:
 Experimental results can be reproduced by other researchers by keeping 
 
-How does Hyperopt work? You'll need to specify the following:
+# How does Hyperopt work?
+You'll need to specify the following:
     - an objective/loss function to minimize (loss function must return a scalar value)
     - the search space
     - a trials database (optional)
@@ -33,11 +34,12 @@ def q(args):
 ```
 
 # 2. Define a configuration space
-A configuration space specifies our search domain. For example, if we want to search for $x \in [0,1]$ and $y \in [0, 2]$, you could write the following:
+A configuration space specifies our search domain. For example, if we want to search for $x \in [0,1]$ and $y \in {0, 2}$, you could write the following:
 ```Python
 from hyperopt import hp
-space = [hp.uniform(’x’, 0, 1), hp.uniform(’y’, 0, 2)]
+space = [hp.uniform(’x’, 0, 1), hp.choice(’y’, 0, 2)]
 ```
+In more detail, the configuration space is a joint probability distribution over the hyperparameters that we are trying to optimize. `hp.uniform` is a uniform distribution, while `hp.choice` makes a choice within a list of options. If you're interested in reading more about minimizing functions using hyperopt, read the following [link](https://github.com/hyperopt/hyperopt/wiki/FMin).
 
 
 Much of the content in this post is derived from the following papers:
