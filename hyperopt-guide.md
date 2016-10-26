@@ -46,6 +46,7 @@ In more detail, the configuration space is a joint probability distribution over
 ### 3. Choose a search algorithm
 
 Hyperopt currently implements three search algorithms:
+
 1. Random Search, or `hyperopt.hp.rand`, which more or less does the same thing as `sklearn`'s `RandomizedSearchCV`
 2. Gaussian Processes, or `hyperopt.hp.gp`
 3. Tree of Parzen Estimators, or `hyperopt.tpe`
@@ -89,6 +90,7 @@ I have attached source code examples in the github repo https://github.com/wenya
 
 ## Documentation
 Documentation for Hyperopt can be found at the following locations:
+
 1. https://github.com/hyperopt/hyperopt/wiki
 2. https://jaberg.github.io/hyperopt/
 
