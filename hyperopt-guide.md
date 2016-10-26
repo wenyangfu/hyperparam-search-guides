@@ -69,8 +69,12 @@ print(space_eval(space, best))
 ```
 (Bergestra 2013, Scipy 2013)
 
+### 4. Persistence
+If you wish to persist your search results or extend a search, read the following link:
+https://github.com/hyperopt/hyperopt/wiki/Parallelizing-Evaluations-During-Search-via-MongoDB
+
 ### Further examples
-I have attached further examples in 
+I have attached source code examples in the github repo https://github.com/wenyangfu/hyperparam-search-guides
 
 ## Documentation
 Documentation for Hyperopt can be found at the following locations:
