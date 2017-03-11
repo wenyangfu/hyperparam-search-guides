@@ -4,6 +4,7 @@
 
 Hyperopt is a hyperparameter search package that implements various search algorithms for Sequetial model-based optimization (SMBO, aka Bayesian optimization) to find the best set of hyperparameters within a search space.
 Citing the paper, SMBO has the following advantages:
+
     - can leverage smoothness w/out analytic gradient
     - handles continuous real-valued, discrete, and conditional variables/features
     - handles parallel evaluations of the scalar loss function $f(x)$,
@@ -18,6 +19,7 @@ Persisting experimental results using hyperopt allows other people to reproduce 
 
 ## How does Hyperopt work?
 You'll need to specify the following:
+
     - an objective/loss function to minimize (loss function must return a scalar value)
     - the search space
     - a trials database (optional)
