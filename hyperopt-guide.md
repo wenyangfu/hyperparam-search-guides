@@ -88,7 +88,7 @@ pip install git+git://github.com/hyperopt/hyperopt.git
 ```
 
 ### Further examples
-I have attached source code examples in the github repo https://github.com/wenyangfu/hyperparam-search-guides
+Source code examples for optimizing a XGBoost classifier can be found [here](hyperopt-xgb.py).
 
 ## Documentation
 Documentation for Hyperopt can be found at the following locations:
@@ -96,7 +96,7 @@ Documentation for Hyperopt can be found at the following locations:
 1. https://github.com/hyperopt/hyperopt/wiki
 2. https://jaberg.github.io/hyperopt/
 
-Much of the content in this post is derived from the following papers:
+Much of the content in this post is derived from the following papers, and from the Hyperopt wiki.
 
 [1] NIPS 2011: [Algorithms for Hyper-Parameter Optimization](https://papers.nips.cc/paper/4443-algorithms-for-hyper-parameter-optimization.pdf)
 
