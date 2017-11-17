@@ -94,7 +94,7 @@ Source code examples for optimizing a XGBoost classifier can be found [here](hyp
 Documentation for Hyperopt can be found at the following locations:
 
 1. https://github.com/hyperopt/hyperopt/wiki
-2. https://jaberg.github.io/hyperopt/
+2. http://hyperopt.github.io/hyperopt/
 
 Much of the content in this post is derived from the following papers, and from the Hyperopt wiki.
 
